@@ -1,519 +1,467 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="author" content="elemis">
   <title>EMEGE GROUP SRL</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="src/CSS/main.css">
-
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/colors/sky.css">
+  <link rel="preload" href="./assets/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
 </head>
 
 <body>
-
-  <!-- NavBar -->
-
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="#page-top"><img src="src/IMG/cropped-HEADER_LOGO_EMEGE2-3.png" style="width: 100px;"
-          alt=""></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto my-2 my-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="./desarrollos.html">Desarrollos</a></li>
-          <li class="nav-item"><a class="nav-link" href="./ciberseguridad.html">Ciberseguridad</a></li>
-          <li class="nav-item"><a class="nav-link" href="./outsourcing.html">Outsourcing</a></li>
-          <li class="nav-item"><a class="nav-link" href="./productos.html">Productos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- NavBar -->
-
-  <!-- Banner -->
-
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url(./src/IMG/carrousel_1.jpg)">
-        <div class="logo">
-          <div class="container-fluid">
-            <div>
-              <img src="./src/IMG/logo_emege.png" class="img-fluid rounded mx-auto d-block" alt=""
-                style="padding-top: 9em;"">
+<div class="content-wrapper">
+    <header class="wrapper bg-soft-primary">
+    <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./gestion.html">Gestión</a></li>
+                <li class="nav-item"><a class="nav-link" href="./desarrollos.html">Desarrollos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./ciberseguridad.html">Ciberseguridad</a></li>
+                <li class="nav-item"><a class="nav-link" href="./productos.html">Productos</a></li>
+              </ul>
+              <!-- /.navbar-nav -->
+              <div class="d-lg-none mt-auto pt-6 pb-6 order-4">
+                <a href="mailto:ventas@emegegroup.com.ar" class="link-inverse">ventas@emegegroup.com.ar</a>
+                <br /> +54 9 11 6936-7404 <br />
+                <nav class="nav social social-white mt-4">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                  <a href="#"><i class="uil uil-dribbble"></i></a>
+                  <a href="#"><i class="uil uil-instagram"></i></a>
+                  <a href="#"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
+              </div>
+              <!-- /offcanvas-nav-other -->
             </div>
+            <!-- /.offcanvas-body -->
           </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block">
+                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill">Contáctenos</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
         </div>
-        
-        <div class=" container text-center">
-              <h2 style="color: #fff">Trabajamos para que se sienta seguro.</h2>
-              <p></p>
-              <a class="btn btn-primary btn-xl" href="#about">Conozcanos</a>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <section class="wrapper bg-soft-primary" id="banner">
+    <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+        <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
+            <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">TRAEMOS SOLUCIONES <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="DE SEGURIDAD,DE DESARROLLOS,DECIBERSEGURIDAD"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
+            <p class="lead fs-lg mb-7">Contanos de que forma podemos ayudarte. </p>
+            <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+            <span><a class="btn btn-lg btn-primary rounded me-2" href="./contact.html">Contactenos</a></span>            
             </div>
-          </div>
-          <div class="carousel-item" style="background-image: url(./src/IMG/carrousel_2.jpg)">
-            <div class="logo">
-              <div class="container-fluid">
-                <div>
-                  <img src="./src/IMG/logo_emege.png" class="img-fluid rounded mx-auto d-block" alt=""
-                    style="padding-top: 9em;"">
+        </div>
+        <!-- /column -->
+        <div class="col-lg-7">
+            <div class="row">              
+                <div><img class="w-100 img-fluid " src="./assets/img/logo_emege.png"  alt="" /></div>            
             </div>
-          </div>
+            <!-- /.row -->
         </div>        
-        <div class=" container text-center">
-                  <h2 style="color: #fff">Trabajamos para que se sienta seguro.</h2>
+        </div>
+        <!-- /.row -->
+    </div>    
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light" id="about">
+        <div class="container py-14 pt-md-17 pb-md-17">
+          <div class="row" id="contenido">
+            <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
+              <h2 class="fs-15 text-uppercase text-muted mb-3">¿Porqué elegirnos?</h2>
+              <h3 class="display-4 mb-10">Estas son algunas de las cosas que hacemos: </h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="row gx-md-8 gy-8 text-center mb-14 mb-md-17">
+            <div class="col-md-6 col-lg-3">
+              <div><img src="./assets/img/icons/lineal/check-2.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-4" alt="" /></div>
+              <h4>Gestion de proyectos</h4>
+              <p class="mb-3">Nos encargamos de su proyecto de punta a punta, llave en mano</p>
+              <a href="./gestion.html" class="more hover">Conozca más</a>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-lg-3">
+              <div><img src="./assets/img/icons/lineal/computer.svg" class="svg-inject icon-svg icon-svg-md text-green me-4" alt="" /></div>
+              <h4>Desarrollos</h4>
+              <p class="mb-3">Desarrollamos Software y Hardware.</p>
+              <a href="./desarrollos.html" class="more hover">Conozca más</a>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-lg-3">
+              <div><img src="./assets/img/icons/lineal/shield.svg" class="svg-inject icon-svg icon-svg-md text-red me-4" alt="" /></div>
+              <h4>Ciberseguridad</h4>
+              <p class="mb-3">Ofrecemos soluciones a los problemas de Ciberseguridad.</p>
+              <a href="./ciberseguridad.html" class="more hover">Conozca más</a>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-lg-3">
+              <div><img src="./assets/img/icons/lineal/video-camera.svg" class="svg-inject icon-svg icon-svg-md text-red me-4" alt="" /></div>
+              <h4>Productos</h4>
+              <p class="mb-3">Somos representantes de Dahua y tenemos todo lo necesario realizar tu proyecto.</p>
+              <a href="./productos.html" class="more hover">Conozca más</a>
+            </div>
+            <!--/column -->
+          <!-- /.nav-tabs -->
+          <div class="tab-content mt-6 mt-lg-8 mb-md-9">
+            <div class="tab-pane fade show active" id="tab2-1">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6">
+                  <div class="row gx-md-5 gy-5 align-items-center">
+                    <div class="col-6">
+                      <img class="img-fluid rounded shadow-lg d-flex ms-auto" src="./assets/img/punta-punta.png"  alt="" />
+                    </div>
+                    <div class="col-6">
+                      <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/caru-out-2.jpg" alt="" />
+                      <img class="img-fluid rounded shadow-lg d-flex col-11" src="./assets/img/Community-Manager.jpg" alt="" />
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6 order-lg-2">
+                  <div class="row gx-md-5 gy-5">
+                    <div class="col-5">
+                      <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/ciberseguridad_card.jpg"  alt="" />
+
+                    </div>
+                    <!-- /column -->
+                    <div class="col-7">
+                      <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/Dahua-camera.jpg" alt="" />
+                      <img class="img-fluid rounded shadow-lg d-flex col-11" src="./assets/img/motherboard1.jpg"  alt="" />
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+            <div class="tab-pane fade" id="tab2-2">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                  <div class="row gx-md-5 gy-5">
+                    <div class="col-5">                      
+                      <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/ciberseguridad_card.jpg"  alt="" />
+
+                    </div>
+                    <!-- /column -->
+                    <div class="col-7">
+                      <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/code2.jpg"  alt="" />
+                      <img class="img-fluid rounded shadow-lg d-flex col-11" src="./assets/img/motherboard1.jpg"  alt="" />
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <h2 class="mb-3">Desarrollos de Software</h2>
+                  <h3 class="mb-3">Páginas y aplicaciones Web</h3>
+                  <p>Desarrollamos paginas web responsive, siguiendo las tendencias del diseño actual y utilizando frameworks actuales como bootstrap 5, Angular y React. Tambien nos encargamos del posicionamiento Web, de los certificados y los dominios de su solución.</p>
+                  <p>Las app moviles pueden ser publicadas en Google Play y en Apple Store</p>
+                  <h2 class="mb-3">Desarrollos de Hardware</h2>
+                  <h3 class="mb-3">Desarrollamos</h3>
+                  <ul class="icon-list bullet-bg bullet-soft-green">
+                    <li><i class="uil uil-check"></i>Equipos.</li>
+                    <li><i class="uil uil-check"></i>Soluciones de electronica.</li>
+                    <li><i class="uil uil-check"></i>Robotica.</li>
+                    <li><i class="uil uil-check"></i>AAutomatización industrial.</li>
+                    <li><i class="uil uil-check"></i>IoT.</li>
+                    <li><i class="uil uil-check"></i>Etc.</li>
+                  </ul>                  
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+            <div class="tab-pane fade" id="tab2-3">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6">
+                  <div class="row gx-md-5 gy-5">
+                    <div class="col-6">
+                      <img class="img-fluid rounded shadow-lg mb-5" src="./assets/img/ciberseguridad_card.jpg"  alt="" />
+                    </div>
+                    <!-- /column -->
+                    <div class="col-6">
+                      <img class="img-fluid rounded shadow-lg my-5" src="./assets/img/caru-out-4.jpg"  alt="" />
+                      <img class="img-fluid rounded shadow-lg d-flex col-10" src="./assets/img/owasp.png"  alt="" />
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <h2 class="mb-3">Ciberseguridad</h2>
+                  <p>Nuestro Staff está formado por profesionales certificados en ciberseguridad, especializados en brindar un amplio portafolio de servicios orientados a proteger la información de su organización.
+                    Somos la única empresa en la región que brinda capacitación avanzada en línea y certificaciones sobre pruebas de penetración desde una perspectiva neutral del proveedor con materiales de capacitación en inglés y español.
+                    </p>
+                  <ul class="icon-list bullet-bg bullet-soft-red">
+                    <li><i class="uil uil-check"></i>Seguridad de los activos informáticos de la empresa.</li>
+                    <li><i class="uil uil-check"></i>Estudios.</li>
+                    <li><i class="uil uil-check"></i>Hardening de personal</li>
+                    <li><i class="uil uil-check"></i>Capacitaciones.</li>
+                  </ul>
+                  <a href="./ciberseguridad.html" class="btn btn-red mt-2">Conozca Mas</a>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+
+            <div class="tab-pane fade" id="tab2-4">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                  <div class="row gx-md-5 gy-5">
+                    <div class="col-5">
+                      <img class="img-fluid my-5 d-flex ms-auto" src="./assets/img/camara.png" alt="" />
+                      <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" src="./assets/img/productos.png" alt="" />
+                    </div>
+                    <!-- /column -->
+                    <div class="col-7">
+                      <img class="img-fluid mb-5" src="./assets/img/reco-facial.png" alt="" />
+                      <img class="img-fluid rounded shadow-lg d-flex col-11" src="./assets/img/Dahua-camera.jpg" alt="" />
+                    </div>
+                    <!-- /column -->
+                    <div class="col-12">
+                      <img class="img-fluid mb-5" src="./assets/img/logo_aktis.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <h2 class="mb-3">Equipos Dahua</h2>
+                  <ul class="icon-list bullet-bg bullet-soft-red">
+                    <li><i class="uil uil-check"></i>Representante oficial DAHUA, Camaras, Reconocimiento facial, LPR.</li>
+                    <li><i class="uil uil-check"></i>Equipamiento de telecomunicaciones.</li>
+                    <li><i class="uil uil-check"></i>Equipos de Computo</li>
+                    <li><i class="uil uil-check"></i>UPS.</li>
+                  </ul>
+                  <h3 class="mb-3">Software</h3>
+                  <ul class="icon-list bullet-bg bullet-soft-green">
+                    <li><i class="uil uil-check"></i>Cylance/Blackberry.</li>
+                    <li><i class="uil uil-check"></i>Smartfence.</li>
+                    <li><i class="uil uil-check"></i>CoreImpact Pro.</li>
+                    <li><i class="uil uil-check"></i>Fortinet.</li>
+                    <li><i class="uil uil-check"></i>Tenable.</li>
+                    <li><i class="uil uil-check"></i>Manage Engine</li>
+                  </ul> 
+                  <a href="https://aktis.com.ar/" target="_blank" class="btn btn-primary mt-2">Exclusiva Plataforma AKTIS</a>
                   <p></p>
-                  <a class="btn btn-primary btn-xl" href="#about">Conozcanos</a>
+                  <h2 class="mb-3">Materiales y Soluciones de Trazabilidad</h2>
+                  <ul class="icon-list bullet-bg bullet-soft-yellow">
+                    <li><i class="uil uil-check"></i>Cables.</li>
+                    <li><i class="uil uil-check"></i>Ferreteria para montajes de soluciones</li>
+                    <li><i class="uil uil-check"></i>Trazabilidad mediante QR Bicapa inviolable.</li>
+                    <li><i class="uil uil-check"></i>RFID.</li>
+                    <li><i class="uil uil-check"></i>Sistemas de Seguridad Documental Holografica .</li>
+                  </ul>                  
                 </div>
+                <!--/column -->
               </div>
-              <div class="carousel-item" style="background-image: url(./src/IMG/carrousel_3.jpg)">
-                <div class="logo">
-                  <div class="container-fluid">
-                    <div>
-                      <img src="./src/IMG/logo_emege.png" class="img-fluid rounded mx-auto d-block" alt=""
-                        style="padding-top: 9em;"">
+              <!--/.row -->
             </div>
+            <!--/.tab-pane -->
           </div>
-        </div>        
-        <div class=" container text-center">
-                      <h2 style="color: #fff">Trabajamos para que se sienta seguro.</h2>
-                      <p></p>
-                      <a class="btn btn-primary btn-xl" href="#about">Conozcanos</a>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              </header>
-
-              <!--<header>
-    <div class="banner">
-      <div class="logo">
-        <div class="container-fluid">
-          <div>
-            <img src="./src/IMG/logo_emege.png" class="img-fluid rounded mx-auto d-block" alt="">
-          </div>
+          <!-- /.tab-content -->
         </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+
+      <section class="wrapper bg-soft-primary" id="diferencial">
+        <div class="container pt-15 pt-md-17">
+          <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-15 mb-md-17">
+            <div class="col-lg-6 position-relative">
+              <figure class="rounded" style="padding: 2em;"><img src="./assets/img/about12@2x.jpg" alt=""></figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">¿Que nos diferencia del resto?</h2>
+              <h3 class="display-3 mb-8">Nosotros nos preocupamos para que usted no tenga que hacerlo.</h3>
+              <div class="row gy-6">
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="./assets/img/icons/solid/lamp.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Creatividad</h4>
+                      <p class="mb-0">Nos acompaña un gran equipo de diseñadores y creativos</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Pensamiento Innovador</h4>
+                      <p class="mb-0">Nuestros especialistas estan al corriente de las tendencias.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="./assets/img/icons/solid/puzzle.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Soluciones Rapidas</h4>
+                      <p class="mb-0">A veces el cliente no puede permitirse esperar. Por suerte, nosotros sabemos eso.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="./assets/img/icons/solid/headphone.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Soporte de primera</h4>
+                      <p class="mb-0">Nuestras soluciones y proyectos cuentan con soporte de sus implementadores.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+
+    <section class="wrapper bg-light" id="marcas">
+      <div class="container py-14 pt-md-17 pb-md-17">
+        <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Ya confian en nosotros</h2>
+        <div class="px-lg-5 mb-14 mb-md-19">
+          <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/part-casino.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/part-higland.jpg" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/part-hipodromo.jpg" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/part-mayling.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/part-swiss.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="./assets/img/part-tortugas.png" alt="" /></figure>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /div -->
       </div>
-      <hr class="divider" />
-      <div class="container text-center">
-        <h2>Trabajamos para que se sienta seguro.</h2>
-        <p></p>
-        <a class="btn btn-primary btn-xl" href="#about">Conozcanos</a>
+    </section>
+  
+
+</div>
+<!-- /.content-wrapper -->
+<footer class="bg-dark text-inverse">
+  <div class="container pb-16 text-center">
+    <div class="row mt-n10 mt-lg-0">
+      <div class="col-xl-10 mx-auto">
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <div class="widget">
+              <h4 class="widget-title" style="color: white; padding-top: 3em;">Dirección</h4>
+              <address>Av. San Pedrito 715 <br class="d-none d-md-block" /> CABA, CP1406, Argentina </address>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!--/column -->
+          <div class="col-md-4">
+            <div class="widget">
+              <h4 class="widget-title" style="color: white; padding-top: 3em">Telefono</h4>
+              <p>+54 9 11 6936-7404</p>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!--/column -->
+          <div class="col-md-4">
+            <div class="widget">
+              <h4 class="widget-title" style="color: white; padding-top: 3em">E-mail</h4>
+              <p><a href="mailto:ventas@emegegroup.com.ar" class="link-body">ventas@emegegroup.com.ar</a> <br class="d-none d-md-block" /></p>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <p>© 2023 EMEGE GROUP SRL. Todos los derechos reservados.</p>
+        <nav class="nav social justify-content-center">
+          <a href="#"><i class="uil uil-twitter"></i></a>
+          <a href="#"><i class="uil uil-facebook-f"></i></a>
+          <a href="#"><i class="uil uil-dribbble"></i></a>
+          <a href="#"><i class="uil uil-instagram"></i></a>
+          <a href="#"><i class="uil uil-youtube"></i></a>
+        </nav>
+        <!-- /.social -->
       </div>
+      <!-- /column -->
     </div>
-
-  </header> -->
-
-              <!-- /Banner -->
-
-              <!-- Somos  -->
-              <section class="page-section text-center" id="about">
-                <div class="container-fluid text-center">
-                  <h1 style="padding-top: 3em; padding-bottom: 1em;">Quienes Somos</h1>
-                </div>
-                <div class="row" >
-                  <div class=" col-md-6  text-center" style="padding: 2em;">
-                    <h3 style="padding: 1em;">¿Que hacemos?</h3>
-                    <p></p>
-                    <span style="padding: 1em;">Ayudamos y acompañamos a empresas, startups y organizaciones a pensar,
-                      diseñar, construir e implementar soluciones disruptivas mediante la adopción de tecnologías innovadoras.
-                    </span>
-                    <p></p>
-                    <span style="padding: 1em;">Buscamos desarrollar negocios o iniciativas innovadoras de forma
-                      sustentable, o asesorando y
-                      brindando los servicios necesarios a empresas, negocios, u organizaciones establecidas; para que
-                      las mismas puedan alcanzar los objetivos con los más altos estándares de eficiencia. Haciendo foco
-                      en el uso de tecnologías disruptivas y calidad de procesos para Innovar, desarrollar, capacitar y
-                      formar recursos para la implementación de procesos y sistemas eficientes y sustentables adecuados
-                      a las nuevas demandas del mercado mundial.
-                    </span>
-                    <h3 style="padding: 2em;">¿Como lo hacemos?</h3>
-                    <p></p>
-                    <span style="padding: 1em;">Somos especialistas en electrónica, desarrollo de software,
-                      telecomunicaciones,
-                      infraestructura tecnológica y ciberseguridad.
-                    </span> <p></p>
-                    <span style="padding: 1em;">Contamos con amplia experiencia en el despliegue de proyectos
-                      tecnológicos desde el diseño de la solución, el dimensionamiento y montaje de la infraestructura de TI, el desarrollo de todo el
-                      software necesario para el proyecto y nos aseguramos de contemplar las características de la
-                      solución para que cumpla con los requerimientos de ciberseguridad de la organización. </span>
-                    </div>
-                    <div class="col-md-6" style="padding: 2em;">
-                    <div class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="3000">
-                          <img src="./src/IMG/carrousel-about-1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="./src/IMG/carrousel-about-2.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="./src/IMG/carrousel-about-3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="container-fluid" >
-                  <div class="row gx-1">
-                    
-                    <div class="col-lg-3 col-md-6">
-                      
-                      <div class="card">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center;">NOS DIFERENCIA EL COMPROMISO</h5>
-                        </div>
-                        <img src="./src/IMG/Compromiso.png" class="card-img-bottom" alt="...">
-                      </div>
-                      
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                      <div class="card">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center;">GESTION DE PROYECTO PUNTA A PUNTA</h5>
-                        </div>
-                        <img src="./src/IMG/punta-punta.png" class="card-img-bottom" alt="...">
-                      </div>
-                    </div>
-
-                    <div class=" col-lg-3 col-md-6">
-                      <div class="card">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center;">ESTAMOS ANTE DE CUALQUIER CONSULTA</h5>
-                        </div>
-                        <img src="./src/IMG/hombre-tel.png" class="card-img-bottom" alt="...">
-                      </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                      <div class="card">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center;">VALOR AGREGADO EN SERVICIOS</h5>
-                        </div>
-                        <img src="./src/IMG/valor-agregado.png" class="card-img-bottom" alt="...">
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
-
-              </section>
-
-              <!-- CARDS CON LO QUE HACEMOS  -->
-              <section class="page-section" id="tarjetas">
-                <div class="container text-center">
-                  <hr class="divider" />
-                  <h1 style="padding-top: 3em;">Que hacemos</h1>
-
-                </div>
-
-
-                <div class="shell">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="wsk-cp-product">
-                          <div class="wsk-cp-img">
-                            <img src="./src/IMG/desarrollos_card.jpg" alt="Desarrollos" class="img-responsive" />
-                          </div>
-                          <div class="wsk-cp-text">
-                            <div class="category">
-                              <span>DESARROLLOS</span>
-                            </div>
-                            <div class="title-product">
-                              <h3> Desarrollamos Software y Hardware</h3>
-                            </div>
-                            <div class="description-prod">
-                              <a class="btn btn-primary btn-xl" href="./desarrollos.html">Conozca mas</a>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="wsk-cp-product">
-                          <div class="wsk-cp-img">
-                            <img src="./src/IMG/ciberseguridad_card.jpg" alt="Ciberseguridad" class="img-responsive" />
-                          </div>
-                          <div class="wsk-cp-text">
-                            <div class="category">
-                              <span>CIBERSEGURIDAD</span>
-                            </div>
-                            <div class="title-product">
-                              <h3>Soluciones para sus datos</h3>
-                            </div>
-                            <div class="description-prod">
-                              <a class="btn btn-primary btn-xl" href="./ciberseguridad.html">Conozca mas</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="wsk-cp-product">
-                          <div class="wsk-cp-img"><img src="./src/IMG/Outsourcing_card.jpg" alt="Outsourcing"
-                              class="img-responsive" />
-                          </div>
-                          <div class="wsk-cp-text">
-                            <div class="category">
-                              <span>OUTSOURCING</span>
-                            </div>
-                            <div class="title-product">
-                              <h3>Tercerizamos talentos</h3>
-                            </div>
-                            <div class="description-prod">
-                              <a class="btn btn-primary btn-xl" href="./outsourcing.html">Conozca mas</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="wsk-cp-product">
-                          <div class="wsk-cp-img"><img src="./src/IMG/productos_card.jpg" alt="Productos"
-                              class="img-responsive" />
-                          </div>
-                          <div class="wsk-cp-text">
-                            <div class="category">
-                              <span>PRODUCTOS</span>
-                            </div>
-                            <div class="title-product">
-                              <h3>Pioneros en Seguridad Electronica</h3>
-                            </div>
-                            <div class="description-prod">
-                              <a class="btn btn-primary btn-xl" href="./productos.html">Conozca mas</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <hr class="divider" />
-                </div>
-              </section>
-
-
-              <!-- /CARDS CON LO QUE HACEMOS  -->
-
-              <!-- PARTNERS   -->
-              <section class="page-section" id="partners">
-                <div class="container text-center">
-                  <h1>Algunos de nuestros clientes</h1>
-                  <div>
-                    <p></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/3m logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/aconcagua logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/arsat logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/axion logo.jpg" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/bertolotto logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/logo-pcia-catamarca.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/San isidro hipodromo logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/zurich logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/ypf logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/UNC.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/dc global logo.png" alt="" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2">
-                      <img src="./src/IMG/vicente lopez logo.jpg" alt="" class="img-fluid img-thumbnail">
-                    </div>
-
-                  </div>
-                  <hr class="divider" />
-
-                </div>
-
-              </section>
-              <!-- /PARTNERS   -->
-
-              <!-- CONTACTO -->
-              <section class="page-section" id="contact">
-                <div class="container px-4 px-lg-5">
-                  <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <h2 class="contacto">Pongámonos en contacto! </h2>
-                      <p></p>
-                      <hr class="divider" />
-                      <p class="text-muted mb-5">Si quieres comenzar un proyecto con nosotros, envianos un mensaje y nos
-                        pondremos
-                        en contacto contigo.</p>
-                    </div>
-                  </div>
-                  <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                      <!-- * * * * * * * * * * * * * * *-->
-                      <!-- * * SB Forms Contact Form * *-->
-                      <!-- * * * * * * * * * * * * * * *-->
-                      <!-- This form is pre-integrated with SB Forms.-->
-                      <!-- To make this form functional, sign up at-->
-                      <!-- https://startbootstrap.com/solution/contact-forms-->
-                      <!-- to get an API token!-->
-                      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Name input-->
-                        <div class="form-floating mb-3">
-                          <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                            data-sb-validations="required" />
-                          <label for="name">Nombre</label>
-                          <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre</div>
-                        </div>
-                        <!-- Email address input-->
-                        <div class="form-floating mb-3">
-                          <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                            data-sb-validations="required,email" />
-                          <label for="email">Direccion de Email</label>
-                          <div class="invalid-feedback" data-sb-feedback="email:required">Se require un Email.</div>
-                          <div class="invalid-feedback" data-sb-feedback="email:email">El Email no es válido.</div>
-                        </div>
-                        <!-- Phone number input-->
-                        <div class="form-floating mb-3">
-                          <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                            data-sb-validations="required" />
-                          <label for="phone">Número de Telefono</label>
-                          <div class="invalid-feedback" data-sb-feedback="phone:required">Ingrese su número de telefono.
-                          </div>
-                        </div>
-                        <!-- Message input-->
-                        <div class="form-floating mb-3">
-                          <textarea class="form-control" id="message" type="text"
-                            placeholder="Enter your message here..." style="height: 10rem"
-                            data-sb-validations="required"></textarea>
-                          <label for="message">Mensaje</label>
-                          <div class="invalid-feedback" data-sb-feedback="message:required">Dejenos su consulta.</div>
-                        </div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                          <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a
-                              href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                          </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
-                          <div class="text-center text-danger mb-3">Error sending message!</div>
-                        </div>
-                        <!-- Submit Button-->
-                        <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton"
-                            type="submit">Submit</button></div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                      <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                      <div>+54 9 (11) 6936-7404</div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-
-              <!-- CONTACTO -->
-
-</body>
-
-<footer>
-  <!-- Bootstrap core JS-->
-
-  <div class="container px-4 px-lg-5">
-    <div class="small text-center text-muted">Copyright &copy; 2023 - EMEGE GROUP SRL</div>
+    <!-- /.row -->
   </div>
-  <ul class="navbar-nav sm-icons">
-    <li><a class="nav-link" href="#"><i class="bi bi-facebook"></i></a></li>
-    <li><a class="nav-link" href="#"><i class="bi bi-instagram"></i></a></li>
-    <li><a class="nav-link" href="#"><i class="bi bi-twitter"></i></a></li>
-    <li><a class="nav-link" href="#"><i class="bi bi-pinterest"></i></a></li>
-
-  </ul>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-
-  <script>
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-      return new bootstrap.Popover(popoverTriggerEl)
-    })
-  </script>
-
-  <script>
-    var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
-      trigger: 'focus'
-    })
-  </script>
-
-  <!-- SimpleLightbox plugin JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <!-- * *                               SB Forms JS                               * *-->
-  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
+  <!-- /.container -->
 </footer>
-
-
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+</body>
 
 </html>
